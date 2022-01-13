@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Vertiefung</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <a href="Aufgabe1/index.html" target="_blank">lev2_2 Forms</a>
+    <br>
+    <a href="Aufgabe2/index.html" target="_blank">lev2_3 Forms</a>
+    <br>
+    <a href="Aufgabe3/index.html" target="_blank">Aufgabe3</a>
+    <br>
+    <a href="Aufgabe4/index.html" target="_blank">Aufgabe4</a>
+    <br>
+    <a href="Aufgabe5/index.html" target="_blank">Aufgabe5</a>
+    <br>
+    <a href="Aufgabe6/index.html" target="_blank">Aufgabe6</a>
+    <br>
+    <a href="Aufgabe7/index.html" target="_blank">Aufgabe7</a>
+
+
+
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="" placeholder="E-mail" required size="30">
+        <!-- required / benötigt eine email angabne mit @--  size = länge des balken>
+        <!--Gilt für E-mails-->
+        <input type="submit" value="submit">
+
+
+        <br>
+        <label for="pw">Password:</label>
+        <input type="password" name="" id="" minlength="12"> <!-- minlenth länge des passwords-->
+        <br>
+        <label for="txt">For Text</label>
+        <input type="text" name="txt" id="">
+        <br>
+        <label for="txt">Vorname</label>
+        <input type="text" name="Vorname" id="">
+        <br>
+        <label for="date">Datum:</label>
+        <input type="date" name="date" id="">
+        <br>
+        <label for="lang">Sprachen</label>
+        <select name="language" id="">
+            <option value="german">German</option>
+            <option value="english">English</option>
+            <!--In javascript arbeitet man auch mit value-->
+        </select>
+        <br>
+        <label for="file">files können hochgeladen werden</label>
+        <input type="file" name="file" id="">
+        <label for="field">Gender:</label>
+        <fieldset name="field">
+            <legend>Gender / radio button</legend>
+            <label for="gander">Female:</label>
+            <input type="radio" name="gender" id="">
+            <label for="gander">Male:</label>
+            <input type="radio" name="gender" id="">
+            <label for="gander">Dis:</label>
+            <input type="radio" name="gender" id="">
+            <label for="gander">Other:</label>
+            <input type="radio" name="gender" id=""> <!-- name="gender" packt die sachen in eine gruppe-->
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender / checkbox</legend>
+            <label for="gander">Female:</label>
+            <input type="checkbox" name="gender" id="">
+            <label for="gander">Male:</label>
+            <input type="checkbox" name="gender" id="">
+            <label for="gander">Dis:</label>
+            <input type="checkbox" name="gender" id="">
+            <label for="gander">Other:</label>
+            <input type="checkbox" name="gender" id="" checked> <!-- wird schon am anfang ausgewählt-->
+        </fieldset>
+
+        <input type="range" name="" id="" min="0" max="100" value="50" step="20">
+
+        <!--anstlle von type:submit ein type button verwenden da die seite nicht neu geladen wird -->
+
+        <input type="button" value="button">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+
+
+    </form>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/6585d50100.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!--Name, Surname, Email, Gender (male/female), Picture, Country (Germany,France,USA), Preferred languages (HTML, CSS, JS, React), Fields of activity (IT, Design, Other)-->
+
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+            <label for="txt">Name</label>
+            <input type="text" name="name" placeholder="Name" id="">
+            <br>
+            <label for="txt">Surname</label>
+            <input type="text" name="surname" placeholder="Surname" id="">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="mail" placeholder="Email" id="">
+            <br>
+            <label for="gender">Gender</label>
+            <label for="radio">Male</label>
+            <input type="radio" name="gender" id="" checked>
+            <label for="radio">Female</label>
+            <input type="radio" name="gender" placeholder="Female" id="">
+            <br>
+            <label for="">Picture</label>
+            <input type="file" name="" id="">
+            <br>
+            <label for="country">Country:</label>
+            <select name="" id="">
+                <option value="germany">Germany</option>
+                <option value="spain">Spain</option>
+                <option value="france">France</option>
+            </select>
+            <br>
+            <label for="">Preferred languages</label>
+            <select multiple="multiple" name="" id="" size="5px">
+                <!-- multiple gilt für mehrere element-->
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+                <option value="react">React</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+                <option value="react">React++++</option>
+                <input type="text" placeholder="(To choose more thane one use cmd key)" size="40">
+            </select>
+            <br>
+            <label for="">Fieled of activity</label>
+            <input type="checkbox" name="it" id="">
+            <label for="checkbox">IT</label>
+            <input type="checkbox" name="design" id="">
+            <label for="design">Design</label>
+            <input type="checkbox" name="other" id="">
+            <label for="other">Other</label>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Cancel">
+        </fieldset>
+
+    </form>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/6585d50100.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

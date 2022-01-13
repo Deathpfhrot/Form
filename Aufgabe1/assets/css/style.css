@@ -1,0 +1,20 @@
+form{
+    width: 25%;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 3%;
+    border: 1px solid gray;
+}
+
+input[type="reset"]{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
